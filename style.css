@@ -45,3 +45,28 @@
   body {
       color: rgb(202, 56, 56);
   }
+
+  .menu-img {
+    width: 50%;
+    height: 60%;
+    margin: auto;
+  }
+
+  .menu-text {
+    margin: auto;
+    width: 50%;
+  }
+
+  .menu-option {
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .options-container {
+    width: 60%;
+    margin: auto;
+  }
+
+  #menuTab {
+    text-align: center;
+  }
