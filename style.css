@@ -1,7 +1,9 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: #333;
+    background-color:rgb(202, 56, 56);
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
   }
   
   /* Style the links inside the navigation bar */
@@ -9,9 +11,8 @@
     float: left;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    /* padding: 14px 16px; */
     text-decoration: none;
-    font-size: 17px;
   }
   
   /* Change the color of links on hover */
@@ -22,7 +23,7 @@
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #4CAF50;
+    /* background-color: #4CAF50; */
     color: white;
   }
 
@@ -73,4 +74,16 @@
 
   #contactTab {
     text-align: center;
+  }
+
+  .nav-right {
+   font-size: 20px;
+   padding: 20px;
+  }
+
+  .nav-left {
+    float: left;
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    padding: 10px;
   }
