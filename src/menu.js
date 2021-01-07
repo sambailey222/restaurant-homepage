@@ -29,7 +29,7 @@ function renderMenuTab() {
 
     const img1 = document.createElement("img");
     img1.classList.add("menu-img");
-    img1.src = "../src/menu-images/vince1.jpg";
+    img1.src = "../menu-images/vince1.jpg";
     menuOption1.appendChild(img1);
 
     const menuOption2 = document.createElement("div");
@@ -43,7 +43,7 @@ function renderMenuTab() {
 
     const img2 = document.createElement("img");
     img2.classList.add("menu-img");
-    img2.src = "../src/menu-images/vince2.png";
+    img2.src = "../menu-images/vince2.png";
     menuOption2.appendChild(img2);
 
     const menuOption3 = document.createElement("div");
@@ -57,7 +57,7 @@ function renderMenuTab() {
 
     const img3 = document.createElement("img");
     img3.classList.add("menu-img");
-    img3.src = "../src/menu-images/vince3.5.jpg";
+    img3.src = "../menu-images/vince3.5.jpg";
     menuOption3.appendChild(img3);
 }
 
