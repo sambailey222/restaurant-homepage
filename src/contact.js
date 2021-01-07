@@ -7,10 +7,12 @@ function renderContactTab() {
 
     const title = document.createElement("h1");
     title.innerHTML = "Contact Us";
+    title.classList.add("main-title");
     contactTab.appendChild(title);
 
     const address = document.createElement("h3");
     address.innerHTML = "Address";
+    address.classList.add("addressHeading");
     contactTab.appendChild(address);
 
     const addressline1 = document.createElement("h5");
@@ -27,6 +29,7 @@ function renderContactTab() {
 
     const phone = document.createElement("h3");
     phone.innerHTML = "Phone";
+    phone.classList.add("addressHeading");
     contactTab.appendChild(phone);
 
     const phoneNumber = document.createElement("h5");
@@ -35,6 +38,7 @@ function renderContactTab() {
 
     const email = document.createElement("h3");
     email.innerHTML = "Email";
+    email.classList.add("addressHeading");
     contactTab.appendChild(email);
 
     const emailAddress = document.createElement("h5");

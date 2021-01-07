@@ -9,6 +9,7 @@ function renderHTML() {
 
     const title = document.createElement("h1");
     title.innerHTML = "Mangia, Bastardone!";
+    title.classList.add("main-title");
     container.appendChild(title);
 
     const subtitle = document.createElement("h5");

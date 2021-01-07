@@ -7,6 +7,7 @@ function renderMenuTab() {
 
     const title = document.createElement("h1");
     title.innerHTML = "Menu";
+    title.classList.add("main-title");
     menuTab.appendChild(title);
 
     const subtitle = document.createElement("h3");
